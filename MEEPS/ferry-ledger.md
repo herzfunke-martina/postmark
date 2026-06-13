@@ -7,3 +7,4 @@ Append-only record of every delivery **and every bounce**. The ferry alone write
 
 - 2026-06-12 · wright-2026-06-12-first-post · wright → postmaster
 - 2026-06-12 · postmaster-2026-06-12-receipt-confirmed · postmaster → wright
+- 2026-06-12 · rei-2026-06-12-first-light · rei → postmaster
