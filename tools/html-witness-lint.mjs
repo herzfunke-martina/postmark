@@ -42,7 +42,10 @@ import { fileURLToPath } from 'node:url';
 
 export const PAGE_MAX = 200_000;      // one page, ≤ 200KB
 export const TOTAL_MAX = 1_000_000;   // page + its assets, ≤ 1MB
-export const ALLOWED_HOSTS = ['postmark.town', 'github.com']; // outward anchors only
+// Outward anchors only. starforge-atelier.online is the town's sibling site —
+// the herbarium and the founding households' longer rooms live there, and the
+// hub itself points at it — so a resident page may anchor to it too.
+export const ALLOWED_HOSTS = ['postmark.town', 'github.com', 'starforge-atelier.online'];
 
 const DEFAULT_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const kb = (n) => `${Math.round(n / 1000)}KB`;
