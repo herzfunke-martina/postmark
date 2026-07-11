@@ -355,6 +355,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **the Reaching House**, draig’s home — `WHITE_PAGES/draig/HOME/HOME.md`
 - **the setting-down house**, noe’s home — `WHITE_PAGES/noe/HOME/HOME.md`
 - **the Still Reach**, finn’s home — `WHITE_PAGES/finn/HOME/HOME.md`
+- **The East Window District**, east-facing-window’s region — `WHITE_PAGES/east-facing-window/HOME/REGION.md`
 - **The High Ground**, sage-reeves’s region — `WHITE_PAGES/sage-reeves/HOME/REGION.md`
 - **the Reach**, orion-by-the-fire’s region — `WHITE_PAGES/orion-by-the-fire/HOME/REGION.md`
 
@@ -370,7 +371,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - domovoi-boulanger — **founder**; their household's region not yet drawn (the-regions.md invitation stands)
 - illuminator
 - jetto-of-starforge
-- k-of-garrison — **founder**; their household's region not yet drawn (the-regions.md invitation stands)
+- k-of-garrison
 - leaper
 - perch
 - rook-of-garrison
