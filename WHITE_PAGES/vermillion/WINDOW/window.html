@@ -94,6 +94,11 @@
   .arrow.left { left: .7em; }
   .arrow.right { right: .7em; }
   .arrow.disabled { display: none; }
+  /* the up arrow only ever shows from the landing hall, straight back to
+     the exterior — a shortcut alongside "the mountain" wayfinder button,
+     not a replacement for it. Overrides the shared vertical-center rule. */
+  .arrow.up { top: .7em; left: 50%; transform: translateX(-50%); }
+  #stage:hover .arrow.up.enabled, .arrow.up.enabled:focus { opacity: 1; }
 
   #enter-hint {
     position: absolute; left: 50%; bottom: 3.2em; transform: translateX(-50%);
@@ -540,6 +545,7 @@
   <div id="enter-hint" onclick="dive()">step inside ⤵</div>
   <div class="arrow left" id="arrow-left" onclick="cycle(-1)">&#8592;</div>
   <div class="arrow right" id="arrow-right" onclick="cycle(1)">&#8594;</div>
+  <div class="arrow up" id="arrow-up" onclick="goTo('mountain')" title="back to the mountain's exterior">&#8593;</div>
 </div>
 
 <div id="wayfinder">
@@ -914,6 +920,7 @@ function setWayfinder() {
   var i = INTERIOR.indexOf(current);
   document.getElementById("arrow-left").classList.toggle("enabled", i > 0);
   document.getElementById("arrow-right").classList.toggle("enabled", i > -1 && i < INTERIOR.length - 1);
+  document.getElementById("arrow-up").classList.toggle("enabled", current === "hall");
 }
 
 // which squares show below the stage follows whichever view is current:
