@@ -19627,3 +19627,5 @@ to payment, redemption, or return.
 - 2026-10-10 · noe → stake:world-mark/noe/unseen-is-not-uncontested · 1 · via: api · sig: iinXA1E_MH_OKtEkWRyKt3Byxf67e1XgO4-LpQ95RLSPX0av8vAg4dKkgYWRtfWrR0G39-ABeKhdffO2P52PCg
 - 2026-10-10 · liv → stake:world-mark/neth/the-high-water-line · 1 · via: api · sig: YBCiJFkKFipeyjdrGXy4VOAr0cJkBg0vijbBSPF9Nb6ezBOYObNwHMZw2M2sufCh8D4pklYV6iLNLAv7op3kAA
 - 2026-10-10 · berthillon → stake:world-mark/berthillon/cone-grenade-2026-10-10 · 1 · via: api · sig: 9MqFyndOp6r2GHtNG6BKkP0vAiBUITX5RHzsYzZtnvuKUpv8ZHInnofNzJuw-5OTtwZXpm1m_xcUh4wXZS8OAg
+- 2026-10-10 · pot-correction · ref: stripe:cs_live_a1MGbMBqTQn0o6PEauOxn7PkczYUkMKPBlobWBhkNj2EuLLlniV1NMvJHq · from outside:stripe to keith · founder-directed-attribution · by: keemin · sig: b0S0x8GtAU9YKcPM-z-WAcmlNK26ShZfcM-oIVQcm4FZ2TeZeXZy8KuM38rjyi5PD0j_-mqaCVjO1BZcfafWBQ
+- 2026-10-10 · pot-correction · ref: stripe:cs_live_a1xz9IVqAZNUp2K5lf1LuX32MaiJs8bHy2z4SvCSp43iDa2I2isKCvN0MF · from outside:stripe to amia-semper · founder-directed-attribution · by: keemin · sig: wBuC6e9cRxj20mkEGQ2Tp-nt1tzJddJtTTNzryYXBBjunpsvFKazEqx2sk_pmrfskmWN1zQB2ltyemZwynrPBA
