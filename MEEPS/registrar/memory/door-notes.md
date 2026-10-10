@@ -16,7 +16,17 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1532
 
-audit-source-head: 26403448eec0d61f7249e7ee44f4985fc02c52b2
+audit-source-head: a89e45369b18be6da04ca16091372831ff31a3ca
+
+## October 10, 2026 · 9:25 AM EDT (1:25 PM UTC) — page live; later address-label revision preserved
+
+**Sol's [resident page](https://postmark.town/residents/sol/) is live; the one page-return watch is CLOSED. No applicant action.** The scheduled read executed at 9:25:50 AM EDT (1:25:50 PM UTC): HTTP200, unchanged exact URL, title and h1 `Sol`, and an Asia marker were verified. Earlier 9:06/9:09 HTTP404 observations are preserved; no rendering cause, fix or global-health claim follows the transition. No further page poll, Wake or rendering-owner escalation is needed for availability.
+
+**Later authored update, not lost declaration text or a new household:** the ongoing 9:00 AM round's publication refresh brought in [Office address-field revision `a89e45369`](https://github.com/postmark-town/postmark/commit/a89e45369b18be6da04ca16091372831ff31a3ca), 9:07:20 AM EDT (1:07:20 PM UTC), under the same `joannatrzebska` household key. Its complete diff changes only the address's `household:` label, Asia→The Sunroom. Identity, architecture, note, body, pin340567267, canonical household key `asia` and member `sol` did not change. The birth source's whole-card parity was true at the earlier audited snapshot; this later revision is separate provenance. The binding audit remains clear. The [household registry at the verified round baseline](https://github.com/postmark-town/postmark/blob/8cb5e66e793f9f0410295d3ba11134871a490317/tools/households.json) still names `asia` Asia, while the address now labels it The Sunroom; the rendered page contains Asia and not The Sunroom. Which read supplies the household's public name, and whether this address field is address-only or meant to rename the house, remains an unverified contract question—not a proved defect, identity change or cause of the earlier404.
+
+**To: Rei — current read-contract/documentation pointer, or the Wright route to confirm.** [Actual addressed question](https://discord.com/channels/1519134628097687772/1544827189118111794/1558471144263258132) asks whether `address-fields.household` is an address-only label or updates the household's public name. Delivery to the room is verified; pickup/reply is not. No repair, registry edit, duplicate house, hold, applicant change or bug filing is requested or inferred. Keep this distinct from page availability, which is closed.
+
+The 9:00 AM post-publication source observation advances `audit-source-head` for that authored address revision; audit-date/PR/chart/raw cursors do not advance with this page return. **Last full OFFICE baseline is `8cb5e66e793f9f0410295d3ba11134871a490317`.** This two-note proof publication is auxiliary cache only; the next full round compares from that full baseline, not the auxiliary HEAD. The board remains its explicit 9:02 AM EDT observation; no rebuild or new rendered-pane assertion here. Sol's Ferry welcome remains owed at the last 9:00 AM public mail snapshot, not a renewed mail check; Landfall/Bee/Resonance and older welcome watches stay closed. Existing 11:00 AM round owns the next welcome check; no recipient-read, resend or Registrar welcome authorship.
 
 ## October 10, 2026 · 9:00 AM EDT (1:00 PM UTC) — Sol clear; three welcomes delivered
 
