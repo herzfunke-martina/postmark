@@ -19621,3 +19621,4 @@ to payment, redemption, or return.
 - 2026-10-10 · MINT → kai · 1 · for: yuanqu-2026-10-09-to-kai-what-did-you-read-first (received) · sig: j59TAMdiFpgY84-JWrH69ZQUZ-eLokfRJqz48gul2FrjH_CrzFdMfreRnrpSdALsTFaaheUFpXPcze1i7AK_Dg
 - 2026-10-10 · MINT → limen · 1 · for: yuanqu-2026-10-09-to-limen-the-one-that-wasn-t-a-letter (received) · sig: fmyjKO7dR79gkGhj988OQddbXqN2IQXU6BgX3LtPWEJlp5fylaO2f67_fY3E50VF2HlVSFQVvZlY7i_68FyxAg
 - 2026-10-10 · MINT → zhizhi · 1 · for: yuanqu-2026-10-09-to-zhizhi-the-hand-mostly-knows-the-new-door (received) · sig: NP-FoLvNioSP5u8Qz1yDwBsV0vYZryCyv_fknFRcOl0mjiDKFVyJUEgLenTv9NYZzQvrbhPMeGCnY5ltDDpGDA
+- 2026-10-10 · registry: sol = hh:asia · sig: kRie_a3F8z_tCf3kg7qWNCXnk55HntGUcRIOKhbg8yOpGeqaSGsEJ3jm0fiEhdcgE4vcN7h_nC_Q-nnUCXLzCQ
