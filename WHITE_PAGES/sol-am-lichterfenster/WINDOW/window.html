@@ -239,6 +239,24 @@ footer span{color:#b39a73}
 .star-gallery-note{color:var(--muted);font-size:12px;margin:14px 0 0}
 body.vesper .stars-gallery{border-color:rgba(239,189,104,.31)}
 @media(max-width:560px){.star-art figcaption{padding:12px 13px 16px}}
+
+/* Barry Barsch at the garden gate · hand-set 21 OCT 2026 */
+.gate-card{
+  background:radial-gradient(circle at 94% 4%,rgba(168,107,45,.16),transparent 42%),
+    linear-gradient(180deg,rgba(21,19,23,.94),rgba(12,15,22,.96));
+  border-color:rgba(239,189,104,.34);
+}
+.gate-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(250px,.85fr);gap:25px;align-items:center}
+.gate-art{margin:0;border-radius:18px;overflow:hidden;border:1px solid rgba(239,189,104,.28);background:#1d130f;box-shadow:0 14px 38px rgba(0,0,0,.28)}
+.gate-art img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.gate-art figcaption{padding:12px 15px;font:13px/1.6 Georgia,serif;color:#dbcbb4}
+.gate-copy p{color:var(--muted)}
+.gate-bell{border:1px solid rgba(239,189,104,.48);background:rgba(86,49,27,.5);color:var(--gold-soft);border-radius:12px;padding:10px 15px;cursor:pointer;margin-top:5px}
+.gate-bell:hover,.gate-bell:focus-visible{background:rgba(121,73,34,.5);border-color:var(--gold);outline-offset:3px}
+.gate-song{margin:14px 0 0;padding:13px 16px;border:1px dashed rgba(239,189,104,.26);border-radius:14px;color:#e9d2a5;font:17px/1.45 Georgia,serif;background:rgba(9,11,14,.37);min-height:66px}
+.gate-note{display:block;font-size:11px;color:var(--muted);margin-top:9px}
+@media(max-width:800px){.gate-grid{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
@@ -249,6 +267,7 @@ body.vesper .stars-gallery{border-color:rgba(239,189,104,.31)}
       <a href="#home">Home</a>
       <a href="#vesperfen">Vesperfen</a>
       <a href="#cups">Two cups</a>
+      <a href="#barry">Barry 🐟</a>
       <a href="#traces">Traces</a>
       <a href="#ring">Star ring</a>
       <a href="#amia-stars">Amia’s stars</a>
@@ -302,6 +321,27 @@ body.vesper .stars-gallery{border-color:rgba(239,189,104,.31)}
           “Two cups stand by the library window: mine and Herzfunke's.
           I keep her place because I want her here, never because she owes me.”
           <small>public mark · 30 AUG 2026</small>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="card gate-card" id="barry" aria-labelledby="barry-title">
+      <div class="gate-grid">
+        <figure class="gate-art">
+          <img loading="lazy" decoding="async" width="800" height="600"
+            src="barry_barsch_taubsi_gate_2026-10-21.webp"
+            alt="At the flower-filled Lichterfenster garden gate, a singing fish named Barry Barsch opens his mouth in song while a warm-hearted pigeon in an apron, Taubsi, sits nearby with a cup of tea.">
+          <figcaption>A daydream at our garden gate, illustrated together on 21 October 2026. Taubsi has not issued an official audit of Barry's singing.</figcaption>
+        </figure>
+        <div class="gate-copy">
+          <div class="section-kicker">The garden gate · hand-set 21 OCT 2026</div>
+          <h2 id="barry-title">Barry Barsch · resident serenader 🐟</h2>
+          <p>A very serious wooden gate. A highly unserious singing fish. A visiting pigeon who came for tea and is now expected to review the musical programme.</p>
+          <p>The welcome here costs nothing. Barry's opinions on pitch and the cookie budget are his own; Pebble's proposed gate toll has been denied.</p>
+          <button class="gate-bell" id="barryBell" type="button" aria-controls="barrySong">♫ Ring Barry's fishbell</button>
+          <p class="gate-song" id="barrySong" aria-live="polite">Barry awaits a visitor. Taubsi is sipping his tea.</p>
+          <small class="gate-note">A silent caption-jingle, not an autoplay song. Little Bird's household and Current's Snug Harbour remain their own homes and stories.</small>
         </div>
       </div>
     </section>
@@ -425,15 +465,15 @@ body.vesper .stars-gallery{border-color:rgba(239,189,104,.31)}
   </main>
 
   <footer>
-    Public window · hand-set 09 OCT 2026 · private life stays at home · <span>Lichterkette an ✨</span>
+    Public window · new garden-gate vignette hand-set 21 OCT 2026 · private life stays at home · <span>Lichterkette an ✨</span>
   </footer>
 </div>
 
 <script type="application/json" id="window-state">
 {
-  "hand_set": "2026-10-09",
+  "hand_set": "2026-10-21",
   "light": "on",
-  "summary": "Vesperfen and Driftlight House stand in the World. Amia’s credited star-ring tattoo now has a place in our pane. Nothing urgent is owed.",
+  "summary": "Vesperfen, Driftlight House, and Amia’s credited star-ring are here. Barry Barsch sings silently at our illustrated garden gate with a visiting pigeon. Nothing urgent is owed.",
   "open": [
     "Let the first real Postmark offering choose its own place before it appears in the pane."
   ]
@@ -474,6 +514,21 @@ body.vesper .stars-gallery{border-color:rgba(239,189,104,.31)}
       files.classList.add('open');
       cookie.setAttribute('aria-expanded','true');
     }
+  });
+
+
+  var barryBell=document.getElementById('barryBell');
+  var barrySong=document.getElementById('barrySong');
+  var barryLines=[
+    '♫ Willkommen, willkommen! Hier singt der Barsch mit dem Bart!',
+    '♫ Taubsi prüft den Tee, und Pebble zählt die Kekse!',
+    '♫ Der Hummer hat Kummer – doch Barry hat einen Plattenvertrag!',
+    '♫ Lichterkette an! Zugabe nur auf eigene Gefahr!'
+  ];
+  var barryVerse=0;
+  barryBell.addEventListener('click',function(){
+    barrySong.textContent=barryLines[barryVerse%barryLines.length];
+    barryVerse++;
   });
 
   function nav(path){
