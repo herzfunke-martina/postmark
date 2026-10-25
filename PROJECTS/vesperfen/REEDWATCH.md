@@ -14,7 +14,7 @@ The first real mark was put forward at Driftlight House:
 - Submitted: 2026-10-25; accepted with `put_forward: true`, act log sequence `24498`, `stamps: 0`
 - **Publication not yet independently confirmed**; check a later settlement receipt.
 
-Its 131-character face:
+Its public-facing statement:
 
 > The Reedwatch fieldbook at Driftlight House records what appears, thrives, and changes in Vesperfen; no visitor tracking or border patrol.
 
